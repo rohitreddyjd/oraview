@@ -1,0 +1,2 @@
+class OraviewAdminController < ApplicationController
+end

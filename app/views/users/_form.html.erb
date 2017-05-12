@@ -1,0 +1,14 @@
+This is partial form  for new user. I will render the form below
+
+<%= form_for @user do |f| %>
+  <%= f.label :username %>:
+  <%= f.text_field :username %><br />
+
+  <%= f.label :age %>:
+  <%= f.text_field :age %><br />
+
+  <%= f.label :phone %>:
+  <%= f.text_field :phone %><br />
+
+  <%= f.submit %>
+<% end %>
